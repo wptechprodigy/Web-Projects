@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'GTPressura';
+    src:
+         url('/assets/fonts/GT-Pressura-Pro-Trial-Light.otf') format('opentype');
+}
+
+#menu {
+    width:100%;
+    border-radius: 0px;
+    margin-left: 15%;
+    margin-top: 5%;
+    padding-left:10px;
+    padding-right:10px;
+    background-color: transparent;
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    font-family: 'GTPressura';
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+}
+
+#menu::after {
+    background-image: none;
+    background-color: transparent;
+}
+
+#menu>ul{
+    background-color: transparent;
+    margin-left:50px;
+}
+
+#menu > li{
+    display: inline-block;
+    background-color:transparent;
+    
+}
+
+#menu > li > a{
+    color: rgba(255, 255, 255, 1);
+}
+
+/* #menu > li > a:hover,
+#menu > li > a:focus{
+    background-color: transparent;
+    display: inline-block;
+    position: relative;
+}
+
+#menu > li > a:hover::after,
+#menu > li > a:focus::after{
+    content:'';
+    height: 2px;
+    width:40%;
+    background:#fff;
+    position: absolute;
+    left: calc(50% - 20%);
+    bottom:0;
+}     */
